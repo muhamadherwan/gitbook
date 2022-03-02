@@ -37,3 +37,16 @@ git checkout <branch-name>
 
 Create new branch and move inside the new branch
 git checkout -b <branch-name>
+
+Commit file without add to staging
+git commit -a -m "update message"
+
+View git history
+git log
+
+View certain command help
+git <command> -help
+
+View all command help
+git help --all
+
