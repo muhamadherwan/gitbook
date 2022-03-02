@@ -26,3 +26,14 @@ git add --all
 Commit file
 git commit -m "Message"
 
+Create new branch
+git branch <new-branch-name>
+
+Check existing branch
+git branch
+
+Move inside branch
+git checkout <branch-name>
+
+Create new branch and move inside the new branch
+git checkout -b <branch-name>
