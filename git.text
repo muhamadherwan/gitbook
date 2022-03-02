@@ -1,0 +1,12 @@
+Check git version:
+git --version
+
+Initialize Git:
+git init
+
+Check current git file status:
+git status
+
+Add file to statging
+git add <file name>
+
