@@ -1,6 +1,14 @@
 Check git version:
 git --version
 
+Configure git for all repo
+git config --global user.name "<username>"
+git config --global user.email "<email>"
+
+Configure git for just one repo 
+git config user.name "<username>"
+git config user.email "<email>"
+
 Initialize Git:
 git init
 
@@ -50,3 +58,28 @@ git <command> -help
 View all command help
 git help --all
 
+Create new branch
+git branch <new-branch-name>
+
+Check existing branch
+git branch
+
+Move in branch
+git checkout <branch-name>
+
+Create new branch and move in the new branch
+git checkout -b <new-branch-name>
+
+Merge master branch
+git merge <branch-name>
+
+Delete branch
+git branch -d <branch-name>
+
+Working with GitHub remote repo:
+
+Add local repo to new remote repo
+git remote add origin <github-repo-url>
+
+Push local master branch to remote repo
+git push -u origin master
