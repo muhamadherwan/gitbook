@@ -7,6 +7,22 @@ git init
 Check current git file status:
 git status
 
-Add file to statging
+Check current git status with short msg result
+git status --short
+
+Short status flag means:
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+
+Add file to staging
 git add <file name>
+
+Add multiple file to statging
+git add -A
+git add --all
+
+Commit file
+git commit -m "Message"
 
